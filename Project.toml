@@ -1,7 +1,11 @@
 name = "DynamicTerminal"
 uuid = "43557e69-2879-4f78-9f9f-e79486a55683"
-authors = ["marcu <marcuspaafjellet@gmail.com>"]
+authors = ["MarcusTL12 <marcuspaafjellet@gmail.com>"]
 version = "0.1.0"
 
 [deps]
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+[compat]
+DynamicTerminal = "0.1.0"
+julia = "1.0.0"
