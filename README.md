@@ -9,7 +9,7 @@ rely on external dependencies (such as ncurses).
 
 
 Examle of usage can be found in examples (comming soon) and my solution of
-[![adventofcode 2019 day 13 part 2]](https://github.com/MarcusTL12/JuliaKalender/blob/master/AdventOfCode2019/13/main.jl)
+[adventofcode 2019 day 13 part 2](https://github.com/MarcusTL12/JuliaKalender/blob/master/AdventOfCode2019/13/main.jl)
 
 
 ## Usage
