@@ -8,6 +8,11 @@ find of dynamically updating the terminal over multiple lines, that did not
 rely on external dependencies (such as ncurses).
 
 
+Examle of usage can be found in examples (comming soon) and my solution of
+adventofcode 2019 day 13 part 2:
+`https://github.com/MarcusTL12/JuliaKalender/blob/master/AdventOfCode2019/13/main.jl`
+
+
 ## Usage
 
 The general gist of how to use this package boils down to the `showandreset`
