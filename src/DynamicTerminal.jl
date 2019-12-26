@@ -49,12 +49,14 @@ disablecolor(io::IO) = print(io, Base.text_colors[:default])
 # This makes it so that when printing the contents of the buffer the next time
 # the cursor will move up the amount of lines printed last time, thereby
 # overwriting the previous print.
+# offset can be changed to account for other sources of new lines such as
+# calling readline.
 export showandreset
-function showandreset(buff)
+function showandreset(buff, offset=0)
     seekstart(buff)
     lines = countlines(buff)
     write(stdout, take!(buff))
-    resetcursor(buff, lines)
+    resetcursor(buff, lines + offset)
 end
 
 # A useful utility for a lot of my usecases for this package.
